@@ -1,0 +1,225 @@
+/*created 22.05.2014 by linn.coffeein@gmail.com*/
+html,
+body {
+    height: 100%;
+}
+html {
+    position: relative;
+}
+body {
+    font-family: 'Cuprum', sans-serif;
+    background:#ffffff;
+    font-size: 16px;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -120px;
+
+}
+#push,
+#footer {
+    height: 120px;
+}
+#footer {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+}
+.headerContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    margin: 10px 20px 15px 0;;
+    display: inline-block;
+    width: 100%;
+    /*min-width: 110px;*/
+}
+.containerSmall{
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.socialLinks{
+    background: url(img/social.png) 0 0 no-repeat;
+    display: inline-block;
+    height: 19px;
+}
+.fbLink{
+    background-position: 0 0 ;
+    width: 74px;
+}
+.twLink{
+    background-position: -75px 0;
+    width: 68px;
+}
+.vkLink{
+    background-position: -145px;
+    width: 34px;
+
+}
+.col-custom{
+    width: auto;
+}
+.btn-red{
+    color: #fff;
+    /*    background-color: #07b5b6;
+        border-radius: 0;
+        border: none;
+        font-size: 16px;*/
+}
+.color-menu-href{
+    height: 148px;
+    padding: 0 25px;
+    width: auto;
+    display: inline-block;
+}
+.menu-home{
+    background: #1691bd;
+}
+.menu-actions{
+    background: #25c389;
+}
+.menu-booking{
+    background: #de6262;
+}
+.menu-info{
+    background: #ffb901;
+}
+.menu-hotels{
+    background: #f5963c;
+}
+.menu-contacts{
+    background: #166ba2;
+}
+.col-custom-menu{
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.header-text,.header-text:hover{
+    color: #666666;
+    font-size: 24px;
+    font-family: 'Cuprum', sans-serif;
+}
+.color-menu-text{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Cuprum', sans-serif;
+}
+.color-icon{
+    background: url(img/icons_header.png) 0 0 no-repeat;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 50px auto 22px auto;
+}
+.actions{
+    background-position:-46px 0;
+}
+.booking{
+    background-position:-97px 0;
+}
+.info{
+    background-position:-154px 0;
+}
+.hotels{
+    background-position:-211px 0;
+}
+.contacts{
+    background-position:-268px 0;
+}
+.menuBlocks{
+    max-height: 148px;
+}
+.breadcrums-block{
+    height: 95px;
+    background: #dddddd;
+    /*padding-left: 138px;*/
+    padding: 21px 0;
+}
+.breadcrums-wrapper{
+    margin: 0 0 0 138px;
+}
+.category-icon{
+    background: url(img/category_icon.png) 0 0 no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;   
+    background-position: center;   
+    background-size: 100% 100%;
+    width: 48px;
+    height: 48px;
+    margin: 0 23px 0 0 ;
+    /*    float: left;*/
+}
+.category-name, .breadcrums-link, .divider{
+    color: #333333;
+    font-size: 30px;
+    line-height: 30px;
+}
+.breadcrums-link, .divider {
+    font-size: 14px;
+}
+.divider{
+    margin: 0 3px;
+}
+.breadcrums{
+    margin: -4px 0 0 0;
+    line-height: 14px;
+}
+.breadcrums .breadcrums-link:last-child{
+    cursor: default;
+}
+@media only screen 
+and (min-width : 240px)
+and (max-width: 320px){}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (min-width : 240px)
+and (max-width: 320px)
+and (orientation:portrait){}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+}
+
+@media (max-width: 767px)  {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) 
+and (orientation:portrait){
+
+}
+
+@media (min-width: 992px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1920px) {
+
+}
+@media (min-width: 2500px) {
+
+}
