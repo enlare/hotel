@@ -29,9 +29,9 @@
     <body>
         <!-- Part 1: Wrap all page content here -->
         <div id="wrap">
-            <header class="navbar navbar-fixed-top custom-navbar" >
+            <header class="navbar navbar-fixed-top custom-navbar clearfix" >
                 <div class="headerContainer">
-                    <div class="navbar-header">
+                    <div class="navbar-header clearfix">
                         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -95,7 +95,7 @@
 
 
 
-       
+
             <div class="breadcrums-block clearfix">
                 <div class="headerContainer">
                     <div class="breadcrums-wrapper">
@@ -113,11 +113,32 @@
                     </div>
                 </div>
             </div>
-            <div class="containerSmall">
+            <div class="container-small">
 
             </div>
+            <div id="push"></div>
         </div>
         <div id="footer">
+            <div class="stripes"></div>
+
+            <div class="container-small-footer">
+                <div class="col-md-6 col-sm-6 col-xs-12" >
+                    <form class="news-form">
+                        <div class="news-form-text">Подписаться на наши новости</div>
+                        <div class="news-input-rapper">
+                            <input type="text" class="input-sm news-input pull-left" placeholder="Ваш-email">
+                            <button type="submit" class="news-btn pull-left">Ok</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12" >
+                    <div class="social-links-wrapper">
+                        <a href="#" class="socialLinks vkLink"></a>
+                        <a href="#" class="socialLinks fbLink"></a>
+                        <a href="#" class="socialLinks twLink"></a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

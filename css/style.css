@@ -16,25 +16,30 @@ body {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -120px;
+    margin: 0 auto -100px;
     padding-top: 148px; 
 
 }
+.navbar-header{
+    /*height: 148px;*/
+    /*width: auto;*/
+}
 #push,
 #footer {
-    height: 120px;
+    height: 100px;
 }
 #footer {
     width: 100%;
     color: #fff;
     font-size: 14px;
+    background: #333333; 
 }
 .headerContainer{
     max-width: 1200px;
     margin: 0 auto;
 }
 .logo{
-    margin: 10px 0 15px 10px;
+    margin: 10px 0 0px 10px;
     display: inline-block;
     width: 132px;
     max-width: 132px;
@@ -43,31 +48,40 @@ body {
 .custom-navbar{
     border:none;
     margin: 0;
+    background: #ffffff;
 }
 
-.containerSmall{
+.container-small{
     padding-right: 60px;
     padding-left: 60px;
     margin-right: auto;
     margin-left: auto;
 }
+.container-small-footer{
+    padding-right: 40px;
+    padding-left: 59px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .socialLinks{
-    background: url(img/social.png) 0 0 no-repeat;
-
+    background: url(img/footer_social.png) 0 0 no-repeat;
     display: inline-block;
-    height: 19px;
+    /*height: 19px;*/
 }
 .fbLink{
-    background-position: 0 0 ;
-    width: 74px;
+    background-position: -58px 0;
+    width: 100px;
+    height: 23px;
 }
 .twLink{
-    background-position: -75px 0;
-    width: 68px;
+    background-position: -169px 2px;
+    width: 94px;
+    height: 23px;
 }
 .vkLink{
-    background-position: -145px;
-    width: 34px;
+    background-position: 0;
+    width: 48px;
+    height: 25px;
 
 }
 .col-custom{
@@ -198,10 +212,98 @@ body {
     padding-right: 0;
     padding-left: 0;
 }
+.stripes{
+    height: 8px;
+    width: 100%;
+    background: linear-gradient(to right,
+        #1391ba 10%,
+        #26c187 10%,#26c187 30%,
+        #feb800 30%,#feb800 50%,
+        #e06266 50%,#e06266 70%,
+        #166ba4 70%, #166ba4 90%, 
+        #f27500 90%);
+    background: -moz-linear-gradient(to right,
+        #1391ba 10%,
+        #26c187 10%,#26c187 30%,
+        #feb800 30%,#feb800 50%,
+        #e06266 50%,#e06266 70%,
+        #166ba4 70%, #166ba4 90%, 
+        #f27500 90%);
+    background: -webkit-gradient(linear, to right,   #1391ba 10%,
+        #26c187 10%,#26c187 30%,
+        #feb800 30%,#feb800 50%,
+        #e06266 50%,#e06266 70%,
+        #166ba4 70%, #166ba4 90%, 
+        #f27500 90%);
+    background: -webkit-linear-gradient(to right,   #1391ba 10%,
+        #26c187 10%,#26c187 30%,
+        #feb800 30%,#feb800 50%,
+        #e06266 50%,#e06266 70%,
+        #166ba4 70%, #166ba4 90%, 
+        #f27500 90%);
+    background: -o-linear-gradient(to right,   #1391ba 10%,
+        #26c187 10%,#26c187 30%,
+        #feb800 30%,#feb800 50%,
+        #e06266 50%,#e06266 70%,
+        #166ba4 70%, #166ba4 90%, 
+        #f27500 90%);
+    background: -ms-linear-gradient(to right,   #1391ba 10%,
+        #26c187 10%,#26c187 30%,
+        #feb800 30%,#feb800 50%,
+        #e06266 50%,#e06266 70%,
+        #166ba4 70%, #166ba4 90%, 
+        #f27500 90%);
+
+}
+.news-input{
+    height: 27px;
+    width: 175px;
+    margin: 0px 2px 0 0;
+    background: #ffffff;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    padding: 5px 5px 0px 5px;
+    color: #cccccc;
+    font-size: 18px;
+    float: left;
+    line-height: 18px;
+}
+.news-form{
+    margin: 20px 0 0 0;
+    float: left;
+}
+.news-input-rapper{
+    height: 27px;
+}
+.news-btn{
+    height: 27px;
+    width: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #ffb901;
+    border: none;
+    outline: none;
+    float: left;
+}
+.news-form-text{
+    color: #ffffff;
+    font-size: 18px;
+}
+.social-links-wrapper{
+    width: auto;
+    float: right;
+    margin: 30px 0 0 0;
+}
 
 @media only screen 
 and (min-width : 240px)
-and (max-width: 320px){}
+and (max-width: 320px){
+    .header-text-wrapper{
+        margin-top: 5% !important;
+    }
+}
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
@@ -213,6 +315,17 @@ and (orientation:portrait){}
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
+    .header-text, .header-text:hover {
+        font-size: 17px !important;
+    }
+    /*    .logo{
+             max-width: 100px;
+             width: 100px;
+        }
+        .logo img{
+            display: inline-block;
+            max-width: 100px;
+        }*/
 
 }
 
@@ -220,6 +333,9 @@ and (max-width : 320px) {
 @media only screen 
 and (min-width : 320px) 
 and (max-width : 480px) {
+    .header-text, .header-text:hover {
+        font-size: 17px !important;
+    }
 }
 @media only screen
 and (min-width : 320px)
@@ -232,12 +348,12 @@ and (min-width : 320px)
 and (max-width : 568px)
 /*and (orientation : lanscape)*/ 
 {
-    .header-text, .header-text:hover {
-        font-size: 19px !important;
-    }
-/*    .header-text-wrapper {
-        margin: 3px 0px 0 24px !important;
-    }*/
+    /*    .header-text, .header-text:hover {
+            font-size: 19px !important;
+        }*/
+    /*    .header-text-wrapper {
+            margin: 3px 0px 0 24px !important;
+        }*/
 }
 @media only screen
 and (min-width : 360px)
@@ -317,22 +433,38 @@ and (orientation:landscape){
         margin: 0 0 0 20px;
     }
     .header-text-wrapper {
-       margin-top: 10%;
+        margin-top: 10%;
     }
+    .container-small, .container-small-footer{
+        padding: 0 30px;
+    }
+    .social-links-wrapper{
+        float: none;
+        margin: 20px 0 0 0;
+        text-align: left;
+    }
+    .socialLinks{
+        display: block;
+        margin: 5px 0 0 0;
+    }
+    #footer, #push{
+        height: 200px;
+    }
+    #wrap{
+         margin: 0 auto -200px;
+    }
+    
 }
 
 
-/*@media (min-width: 768px) and (max-width: 1024px) {
-    .header-text, .header-text:hover{
-        font-size: 18px;
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-small-footer{
+        padding: 0 30px;
     }
-    .color-menu-text{
-        font-size: 16px !important;
+    .container-small{
+        
     }
-    .navbar-nav > li > a {
-        padding: 50px 13px 0 !important;
-    }
-}*/
+}
 
 @media only screen 
 and (min-width : 768px) 
