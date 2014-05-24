@@ -419,6 +419,42 @@ body {
     -webkit-filter: grayscale(0%);
     border: 2px solid #ffbe05;
 }
+.hotel-description{
+    padding: 30px;
+    background: #e8e8e8;
+    margin: 10px 0 12px 0;
+}
+.icon-description{
+    background: url(img/icons.png) 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+.room-amount{
+    background-position: -30px 0;
+}
+.parking{
+    background-position: -60px 0;
+}
+.full-info{
+    background-position: -90px 0;
+}
+.text-description{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+}
+.link-description,
+.link-description:active,
+.link-description:focus,
+.link-description:visited,
+.link-description:hover{
+    text-decoration: none;
+    color: #333333;
+    display: inline-block;
+}
+
 
 @media only screen 
 and (min-width : 240px)
@@ -628,6 +664,12 @@ and (orientation:landscape){
     .btn-booking-wrapper{
         padding: 0;
     }
+    .margin-row{
+        margin: 0 0 10px 0;
+    }
+    .hotel-description{
+        padding: 15px;
+    }
 
 }
 
@@ -681,6 +723,12 @@ and (orientation : portrait) { /* STYLES GO HERE */
             width: 145px;
             max-width: 145px;
         }*/
+    .margin-row{
+        margin: 0 0 10px 0;
+    }
+    .hotel-description{
+        padding: 15px;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) 
 and (orientation:landscape){

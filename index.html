@@ -131,7 +131,6 @@
             </div>
 
             <div class="container-small">
-
                 <!-- main slider carousel -->
                 <div class="clearfix big-photo-wrapper" id="slider">
                     <div class="" id="carousel-bounding-box">
@@ -164,14 +163,10 @@
                                                         </a>-->
                         </div>
                     </div>
-
                 </div>
-                <!--</div>-->
                 <!--/main slider carousel-->
                 <!-- thumb navigation carousel -->
-                <!--<div class="">-->
                 <div class="clearfix" id="slider-thumbs">
-
                     <!-- thumb navigation carousel items -->
                     <ul class="custom-slider-thumb">
                         <li class="thumb-item"> 
@@ -202,9 +197,30 @@
                     </ul>
 
                 </div>
-                <!--</div>-->
-
             </div>
+            <div class="container-small">
+                <div class="hotel-description clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 margin-row">
+                        <div class="pull-left icon-description "></div>
+                        <div class="pull-left text-description ">Макс.чел: 3</div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 margin-row">
+                        <div class="pull-left icon-description room-amount"></div>
+                        <div class="pull-left text-description ">Кол-во номеров: 4</div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 margin-row">
+                        <div class="pull-left icon-description parking"></div>
+                        <div class="pull-left text-description ">Парковка: Есть</div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="pull-left icon-description full-info"></div>
+                        <a href="#" class="pull-left text-description link-description">
+                            Подробнее об отеле
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <div id="push"></div>
         </div>
         <div id="footer">
@@ -236,36 +252,6 @@
 
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-        <!--<script src="js/script.js"></script>-->
-        <script>
-
-
-
-
-
-            $('#myCarousel').carousel({
-                interval: 4000
-            });
-
-            // handles the carousel thumbnails
-            $(document).on('click', '.thumb-item-link', function() {
-//                alert('11');
-                var sender = $(this);
-                var id = parseInt(sender.data('number'));
-                $('#myCarousel').carousel(id);
-                $('.thumb-img').removeClass('selected-thumb');
-                sender.find('.thumb-img').addClass('selected-thumb');
-            });
-
-// when the carousel slides, auto update
-            $('#myCarousel').on('slid.bs.carousel', function() {
-                var id = $('.item.active').data('slideNumber');
-                id = parseInt(id);
-                console.log(id);
-                $('.thumb-img').removeClass('selected-thumb');
-                $('#carousel-selector-' + id).find('.thumb-img').addClass('selected-thumb');
-            });
-
-        </script>
+        <script src="js/script.js"></script>
     </body>
 </html>
