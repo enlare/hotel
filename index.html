@@ -156,12 +156,12 @@
                             </div>
                             <!-- main slider carousel nav controls --> 
                             <!-- Controls -->
-<!--                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>-->
+                            <!--                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                                        </a>
+                                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                                        </a>-->
                         </div>
                     </div>
 
@@ -175,28 +175,28 @@
                     <!-- thumb navigation carousel items -->
                     <ul class="custom-slider-thumb">
                         <li class="thumb-item"> 
-                            <a id="carousel-selector-0" class="thumb-item-link selected" href="javascript:void(0);" data-number="0">
-                                <img src="css/img/slider/photo1.png" class="img-responsive">
+                            <a id="carousel-selector-0" class="thumb-item-link" href="javascript:void(0);" data-number="0">
+                                <img src="css/img/slider/photo1.png" class="img-responsive thumb-img selected-thumb">
                             </a>
                         </li>
                         <li class="thumb-item"> 
                             <a id="carousel-selector-1" href="javascript:void(0);" data-number="1" class="thumb-item-link">
-                                <img src="css/img/slider/photo2.png" class="img-responsive">
+                                <img src="css/img/slider/photo2.png" class="img-responsive thumb-img">
                             </a>
                         </li>
                         <li class="thumb-item"> 
                             <a id="carousel-selector-2" href="javascript:void(0);" data-number="2" class="thumb-item-link">
-                                <img src="css/img/slider/photo3.png" class="img-responsive">
+                                <img src="css/img/slider/photo3.png" class="img-responsive thumb-img">
                             </a>
                         </li>
                         <li class="thumb-item"> 
                             <a id="carousel-selector-3" href="javascript:void(0);" data-number="3" class="thumb-item-link">
-                                <img src="css/img/slider/photo4.png" class="img-responsive">
+                                <img src="css/img/slider/photo4.png" class="img-responsive thumb-img">
                             </a>
                         </li>
                         <li class="thumb-item"> 
                             <a id="carousel-selector-4" href="javascript:void(0);" data-number="4" class="thumb-item-link">
-                                <img src="css/img/slider/photo5.png" class="img-responsive">
+                                <img src="css/img/slider/photo5.png" class="img-responsive thumb-img">
                             </a>
                         </li>
                     </ul>
@@ -252,19 +252,20 @@
 //                alert('11');
                 var sender = $(this);
                 var id = parseInt(sender.data('number'));
-                console.log(id);
                 $('#myCarousel').carousel(id);
-                $('.thumb-item-link').removeClass('selected');
-                sender.addClass('selected');
+                $('.thumb-img').removeClass('selected-thumb');
+                sender.find('.thumb-img').addClass('selected-thumb');
             });
 
 // when the carousel slides, auto update
-            $('#myCarousel').on('slid', function(e) {
+            $('#myCarousel').on('slid.bs.carousel', function() {
                 var id = $('.item.active').data('slideNumber');
                 id = parseInt(id);
-                $('.thumb-item-link').removeClass('selected');
-                $('#carousel-selector-' + id).addClass('selected');
+                console.log(id);
+                $('.thumb-img').removeClass('selected-thumb');
+                $('#carousel-selector-' + id).find('.thumb-img').addClass('selected-thumb');
             });
+
         </script>
     </body>
 </html>
