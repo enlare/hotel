@@ -11,6 +11,14 @@ body {
     background:#ffffff;
     font-size: 16px;
 }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+      url('fonts/glyphicons-halflings-regular.woff') format('woff'),
+      url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+      url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 
 #wrap {
     min-height: 100%;
@@ -56,6 +64,7 @@ body {
     padding-left: 60px;
     margin-right: auto;
     margin-left: auto;
+    max-width: 1200px;
 }
 .container-small-footer{
     padding-right: 40px;
@@ -349,6 +358,49 @@ body {
     /*float: right;*/
 }
 
+.slider-photo-wrapper{
+    width: 100%;
+    max-height: 120px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.big-photo{
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+}
+.slider-photo-wrapper .small-photo{
+    width: 208px;
+    max-width: 208px;
+    height: 120px;
+    max-height: 120px;
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.slider-photo-wrapper .small-photo:last-child{
+    margin: 0;
+}
+
+.thumb-item{
+    width: 19.2%;
+    float: left;
+    display: block;
+    max-height: 130px;
+    overflow: hidden;
+    margin-right: 1%;
+    box-sizing: content-box;
+}
+.custom-slider-thumb{
+    list-style: none;
+    -webkit-padding-start: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+.custom-slider-thumb .thumb-item:last-child{
+     margin-right: 0;
+}
 
 @media only screen 
 and (min-width : 240px)
@@ -387,6 +439,10 @@ and (max-width : 320px) {
         float: none;
         width: 100%;
     }
+    .slider-photo-wrapper .small-photo{
+        width: 56px;
+        max-width: 56px;
+    }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -401,7 +457,10 @@ and (max-width : 480px) {
 and (min-width : 320px)
 and (max-width : 480px)
 and (orientation : lanscape) {
-
+    .slider-photo-wrapper .small-photo{
+        width: 88px;
+        max-width: 88px;
+    }
 }
 @media only screen
 and (min-width : 320px)
@@ -413,6 +472,10 @@ and (max-width : 568px)
         }*/
     /*    .header-text-wrapper {
             margin: 3px 0px 0 24px !important;
+        }*/
+    /*    .slider-photo-wrapper .small-photo{
+            width: 105px;
+            max-width: 105px;
         }*/
 }
 @media only screen
@@ -426,14 +489,20 @@ and (max-width : 640px){
 and (min-width : 480px)
 and (max-width : 640px)
 and (orientation : portrait) {
-
+    /*    .slider-photo-wrapper .small-photo{
+            width: 88px;
+            max-width: 88px;
+        }*/
 }
 
 @media only screen
 and (min-width : 480px)
 and (max-width : 640px)
 and (orientation : lanscape){
-
+    /* .slider-photo-wrapper .small-photo{
+            width: 120px;
+            max-width: 120px;
+        }*/
 }
 @media (min-width: 600px) and (max-width: 800px) {
     .navbar-nav > li > a {
@@ -448,7 +517,10 @@ and (orientation : lanscape){
 }
 @media (min-width: 600px) and (max-width: 800px) 
 and (orientation:portrait){
-
+    /* .slider-photo-wrapper .small-photo{
+            width: 112px;
+            max-width: 112px;
+        }*/
 }
 @media (min-width: 600px) and (max-width: 800px) 
 and (orientation:landscape){
@@ -587,6 +659,10 @@ and (orientation : portrait) { /* STYLES GO HERE */
     .color-menu-text{
         font-size: 15px !important;
     }
+    /*    .slider-photo-wrapper .small-photo{
+            width: 145px;
+            max-width: 145px;
+        }*/
 }
 @media (min-width: 768px) and (max-width: 1024px) 
 and (orientation:landscape){
@@ -595,6 +671,10 @@ and (orientation:landscape){
     }
     .color-menu-text{
         font-size: 18px !important;
+    }
+    .slider-photo-wrapper .small-photo{
+        width: 196px;
+        max-width: 196px;
     }
 
 }
