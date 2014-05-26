@@ -46,6 +46,7 @@ body {
 .headerContainer{
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 .logo{
     margin: 10px 0 0px 10px;
@@ -535,7 +536,67 @@ body {
     margin: 0 0 13px 0;
     overflow: hidden;
 }
+.carousel-control, .carousel-control:hover{
+    background: transparent;
+    background-image: none!important;
+    opacity: 1;
+}
+.carousel-control:hover, .carousel-control:focus{
+    opacity: 1;
+}
+.carousel-control .icon-prev:before, 
+.carousel-control .icon-next:before{
+    content: '';
+}
 
+.carousel-control .icon-prev, .carousel-control .icon-next
+{
+    width: 40px;
+    height: 40px;
+    background: url(img/controls.png) 0 0 no-repeat;
+    display: inline-block;
+    top:55%;
+    margin: 0;
+
+    /*left: 40px;*/
+    /*     background-size: cover;
+        -moz-background-size: cover;   
+        background-position: center;   
+        background-size: 100% 100%;*/
+
+}
+.carousel-control .icon-prev{
+    left: 25px
+}
+
+.carousel-control .icon-next{
+    background-position:  -40px 0;
+    right: 25px;
+}
+.carousel-caption{
+    left: 0;
+    height: 170px;
+    width: 335px;
+    background: url(img/white_bg.png) 0 0 repeat;
+    top: 0;
+    padding: 20px;
+}
+.slider-hotel-name{
+    color: #166ba2;
+    font-size: 32px;
+    font-family: 'Cuprum', sans-serif;
+    text-shadow: none;
+    line-height: 32px;
+    margin: 0 0 7px 0;
+}
+.slider-hotel-row{
+    color: #1691bd;
+    font-size: 24px;
+    font-family: 'Cuprum', sans-serif;
+    text-shadow: none;
+    height: 24px;
+    line-height: 24px;
+}
 
 @media only screen 
 and (min-width : 240px)
@@ -782,6 +843,33 @@ and (orientation:landscape){
         font-size: 15px;
     }
 
+    .carousel-caption{
+        width: 150px;
+        height: 70px;
+        padding: 5px;
+    }
+    .slider-hotel-name{
+        font-size: 14px;
+        line-height: 14px;
+        margin: 0 0 5px 0;
+    }
+    .slider-hotel-row{
+        font-size: 12px;
+        height: 12px;
+        line-height: 12px;
+    }
+    .container-carousel{
+        padding: 0;
+    }
+
+    .carousel-control .icon-prev{
+        left: 15px
+    }
+
+    .carousel-control .icon-next{
+        right: 15px;
+    }
+
 }
 
 
@@ -842,6 +930,32 @@ and (orientation : portrait) { /* STYLES GO HERE */
     }
     .col-rooms-left, .col-rooms-right{
         padding: 0;
+    }
+    .carousel-caption{
+        width: 220px;
+        height: 130px;
+        padding: 20px;
+    }
+    .slider-hotel-name{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 0 5px 0;
+    }
+    .slider-hotel-row{
+        font-size: 16px;
+        height: 16px;
+        line-height: 16px;
+    }
+    .container-carousel{
+        padding: 0;
+    }
+
+    .carousel-control .icon-prev{
+        left: 15px
+    }
+
+    .carousel-control .icon-next{
+        right: 15px;
     }
 
 }

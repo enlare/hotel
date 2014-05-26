@@ -19,4 +19,8 @@ $(document).ready(function() {
         $('.thumb-img').removeClass('selected-thumb');
         $('#carousel-selector-' + id).find('.thumb-img').addClass('selected-thumb');
     });
+    
+    $('#carouser-main').carousel({
+        interval: 4000
+    })
 });
