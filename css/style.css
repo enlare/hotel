@@ -597,12 +597,13 @@ hr {
     margin: 0 15px 25px 15px;
     padding: 0;
 }
-.read-more{
+.read-more, .read-more:hover{
     padding: 2px 22px;
     border-radius: 4px;
     color: #ffffff;
     font-size: 16px;
     background: #24ac7a;
+    text-decoration: none;
 }
 .preview-price{
     color: #de6262;
