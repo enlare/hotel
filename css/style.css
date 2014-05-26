@@ -72,6 +72,7 @@ hr {
     margin-right: auto;
     margin-left: auto;
     max-width: 1200px;
+    position: relative;
 }
 .container-small-footer{
     padding-right: 40px;
@@ -758,6 +759,11 @@ and (orientation : lanscape) {
         width: 88px;
         max-width: 88px;
     }
+    .thumb-item-medium{
+        margin-bottom: 1px;
+        max-height: 58px;
+        height: 58px !important;
+    }
 }
 @media only screen
 and (min-width : 320px)
@@ -813,7 +819,7 @@ and (orientation : lanscape){
             width: 120px;
             max-width: 120px;
         }*/
-}
+        }
 @media (min-width: 600px) and (max-width: 800px) {
     .navbar-nav > li > a {
         padding: 50px 6px 0 !important;
@@ -831,7 +837,7 @@ and (orientation:portrait){
             width: 112px;
             max-width: 112px;
         }*/
-}
+        }
 @media (min-width: 600px) and (max-width: 800px) 
 and (orientation:landscape){
     .navbar-nav > li > a {
@@ -931,6 +937,9 @@ and (orientation:landscape){
 
     .col-rooms-left, .col-rooms-right{
         padding: 0;
+    }
+    .col-rooms-right{
+        margin-top: 20px;
     }
     .room-description{
         padding: 20px 15px;
@@ -1200,10 +1209,4 @@ and (orientation:portrait){
         padding: 0;
         margin: 0;
     }
-}
-@media (min-width: 1920px) {
-
-}
-@media (min-width: 2500px) {
-
 }
