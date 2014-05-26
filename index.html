@@ -223,68 +223,128 @@
             <div class="container-small">
                 <div class="rooms-wrapper clearfix">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-rooms-left">
-                        <!-- main slider carousel -->
                         <div class="clearfix">
                             <div class="medium-photo-wrapper pull-left">
-                                <!--<div >-->
-                                <div id="carousel-medium-1" class="carousel slide ">
-                                    <!-- main slider carousel items -->
-                                    <div class="carousel-inner">
-                                        <div class="active item" data-slide-number="0">
-                                            <img src="css/img/slider/medium1.png" class="img-responsive medium-photo">
-                                        </div>
-                                        <div class="item" data-slide-number="1">
-                                            <img src="css/img/slider/medium2.png" class="img-responsive medium-photo">
-                                        </div>
-                                        <div class="item" data-slide-number="2">
-                                            <img src="css/img/slider/medium3.png" class="img-responsive medium-photo">
-                                        </div>
-                                        <div class="item" data-slide-number="3">
-                                            <img src="css/img/slider/medium4.png" class="img-responsive medium-photo">
-                                        </div>
-                                    </div>
-                                    <!-- main slider carousel nav controls --> 
-                                    <!-- Controls -->
-                                    <!--                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                                                </a>
-                                                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                                                </a>-->
-                                </div>
-                                <!--</div>-->
+                                <img src="css/img/slider/medium1.png" class="img-responsive medium-photo" alt=""/>
                             </div>
                             <!--/main slider carousel-->
                             <!-- thumb navigation carousel -->
-                            <div class="pull-left medium-thumb-wrapper" id="slider-thumbs-medium-1">
+                            <div class="pull-left medium-thumb-wrapper" >
                                 <!-- thumb navigation carousel items -->
                                 <ul class="vertical-slider-thumb">
                                     <li class="thumb-item-medium"> 
-                                        <a id="carousel-medium-thumb-0"  href="javascript:void(0);" class="thumb-medium-link" data-number="0">
-                                            <img src="css/img/slider/medium1.png" class="img-responsive thumb-img-medium selected-medium-thumb">
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
                                         </a>
                                     </li>
                                     <li class="thumb-item-medium"> 
-                                        <a id="carousel-medium-thumb-1" href="javascript:void(0);" data-number="1" class="thumb-medium-link">
-                                            <img src="css/img/slider/medium2.png" class="img-responsive thumb-img-medium">
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
                                         </a>
                                     </li>
                                     <li class="thumb-item-medium"> 
-                                        <a id="carousel-medium-thumb-2" href="javascript:void(0);" data-number="2" class="thumb-medium-link">
-                                            <img src="css/img/slider/medium3.png" class="img-responsive thumb-img-medium">
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
                                         </a>
                                     </li>
                                     <li class="thumb-item-medium"> 
-                                        <a id="carousel-medium-thumb-3" href="javascript:void(0);" data-number="3" class="thumb-medium-link">
-                                            <img src="css/img/slider/medium4.png" class="img-responsive thumb-img-medium">
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+                        <div class="room-description-header">
+                            Стандартный семейный улучшенный
+                        </div>
+                        <div class="room-description">
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">1 час</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">500 рублей</div>
+                            </div>
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">3 часа</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">1500 рублей</div>
+                            </div>
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">Ночь(23:00 - 9:00)</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">2000 рублей</div>
+                            </div>
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">Сутки(24 часа)</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">3000 рублей</div>
+                            </div>
+                            <div>
+                                При почасовой оплате минимальный заказ 3 часа
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding">
-
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-rooms-right">
+   <div class="clearfix">
+                            <div class="medium-photo-wrapper pull-left">
+                                <img src="css/img/slider/medium1.png" class="img-responsive medium-photo" alt=""/>
+                            </div>
+                            <!--/main slider carousel-->
+                            <!-- thumb navigation carousel -->
+                            <div class="pull-left medium-thumb-wrapper" >
+                                <!-- thumb navigation carousel items -->
+                                <ul class="vertical-slider-thumb">
+                                    <li class="thumb-item-medium"> 
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
+                                        </a>
+                                    </li>
+                                    <li class="thumb-item-medium"> 
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
+                                        </a>
+                                    </li>
+                                    <li class="thumb-item-medium"> 
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
+                                        </a>
+                                    </li>
+                                    <li class="thumb-item-medium"> 
+                                        <a href="javascript:void(0);" class="thumb-medium-link" data-toggle="modal"   data-target="#basicModal">
+                                            <img src="css/img/slider/small.png" class="img-responsive thumb-img-medium ">
+                                            <span class="plus"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="room-description-header">
+                            Стандартный семейный улучшенный
+                        </div>
+                        <div class="room-description">
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  no-padding">1 час</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">500 рублей</div>
+                            </div>
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">3 часа</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">1500 рублей</div>
+                            </div>
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">Ночь(23:00 - 9:00)</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">2000 рублей</div>
+                            </div>
+                            <div class="row-price">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">Сутки(24 часа)</div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">3000 рублей</div>
+                            </div>
+                            <div>
+                                При почасовой оплате минимальный заказ 3 часа
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -313,7 +373,23 @@
                 </div>
             </div>
         </div>
-
+        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Modal Body</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.11.0.min.js"><\/script>')</script>
