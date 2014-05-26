@@ -407,10 +407,10 @@ body {
     max-height: 130px;
     overflow: hidden;
     margin-right: 1%;
-    box-sizing: content-box;
+    box-sizing: content-box *behavior: url(boxsizing.htc);
 }
 .thumb-item-medium{
-    box-sizing: content-box;
+    box-sizing: content-box *behavior: url(boxsizing.htc);
     margin-bottom: 3px;
     display: block;
     overflow: hidden;
