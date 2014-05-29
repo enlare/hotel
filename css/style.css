@@ -727,6 +727,10 @@ hr {
     height: 12px;
     text-align: center;
 }
+.link-preview-wrapper, .link-preview-wrapper:hover{
+    display: block;
+    text-decoration: none;
+}
 
 
 
