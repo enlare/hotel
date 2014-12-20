@@ -53,11 +53,14 @@ hr {
     position: relative;
 }
 .logo{
-    margin: 10px 0 0px 10px;
-    display: inline-block;
+    margin: 10px auto 0px auto;
+    display: block;
     width: 132px;
     max-width: 132px;
     /*float: left;*/
+}
+.navbar-header{
+    width: 32%;
 }
 .custom-navbar{
     border:none;
@@ -912,6 +915,14 @@ and (orientation:landscape){
     .wrap{
         margin: 0 auto -200px;
         padding-bottom: 40px;
+    }
+    
+    .logo,.logo:hover{
+        margin: 10px auto 16px auto;
+    }
+    
+    .navbar-header{
+        width: 100%;   
     }
     .address-wrapper{
         height: auto;
