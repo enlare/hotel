@@ -1,45 +1,27 @@
 <?php include_once 'header.php'; ?>
-<div class="container-small container-carousel">
+<div class="container-small1 container-carousel1">
     <div id="carousel-main" class="carousel slide" data-ride="carousel">
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
                 <img src="css/img/main/photo1.png" alt="...">
                 <div class="carousel-caption">
-                    <div class="slider-hotel-name text-center">
-                        Гостиница "Фишка"
+                   <div class="slider-hotel-name clearfix">
+                        Гостиница "Фишка2"
                     </div>
-                    <div class="slider-hotel-row text-center">
-                        м.Сокол
-                    </div>
-                    <div class="slider-hotel-row text-center">
-                        26 номеров
-                    </div>
-                    <div class="slider-hotel-row text-center">
-                        Парковка
-                    </div>
-                    <div class="slider-hotel-row text-center">
-                        Ресторан
+                    <div class="slider-hotel-row">
+                        - 1-й Амбулаторный проезд, д 2/6 (м.Речной вокзал, Аэропорт)
                     </div>
                 </div>
             </div>
             <div class="item ">
                 <img src="css/img/main/photo2.png" alt="...">
-                <div class="carousel-caption">
-                    <div class="slider-hotel-name text-center">
+                <div class="carousel-caption clearfix">
+                    <div class="slider-hotel-name">
                         Гостиница "Фишка2"
                     </div>
-                    <div class="slider-hotel-row text-center">
-                        м.Сокол
-                    </div>
-                    <div class="slider-hotel-row text-center">
-                        26 номеров
-                    </div>
-                    <div class="slider-hotel-row text-center">
-                        Парковка
-                    </div>
-                    <div class="slider-hotel-row text-center">
-                        Ресторан
+                    <div class="slider-hotel-row">
+                        - 1-й Амбулаторный проезд, д 2/6 (м.Речной вокзал, Аэропорт)
                     </div>
                 </div>
             </div>
@@ -176,17 +158,17 @@
             </div>
         </div>
     </div>
-    <div class="clearfix">
+<!--    <div class="clearfix">
         <ul class="custom-pagination">
             <li><a href="#" class="pagination-item active-pagination-item"></a></li>
             <li><a href="#" class="pagination-item"></a></li>
             <li><a href="#" class="pagination-item"></a></li>
             <li><a href="#" class="pagination-item"></a></li>
         </ul>
-    </div>
+    </div>-->
 </div>
 <hr />
-<div class="container-small">
+<div class="container-small news-wrapper">
     <div class="clearfix">
         <div class="news-title">
             Наши новости

@@ -40,44 +40,44 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a href="./" class="logo">  
-                            <img src="css/img/logo.png"  alt=""/>
+                            <img src="css/img/logo-new.png"  alt="" class="img-responsive"/>
                         </a>
                     </div>
                     <nav class="collapse navbar-collapse " role="navigation">
                         <ul class="nav navbar-nav ">
                             <li class="col-custom-menu">
-                                <a href="#" class="color-menu-href menu-home">
+                                <a href="#" class="current">
                                     <span class="color-icon home"></span>
                                     <span class="color-menu-text">Главная</span>
                                 </a>
                             </li>
 
                             <li class="col-custom-menu">
-                                <a href="#" class="color-menu-href menu-actions">
+                                <a href="#" class="current">
                                     <span class="color-icon actions"></span>
                                     <span class="color-menu-text">Акции</span>
                                 </a>
                             </li>
                             <li class="col-custom-menu">
-                                <a href="#" class="color-menu-href menu-booking">
+                                <a href="#" class="current">
                                     <span class="color-icon booking"></span>
                                     <span class="color-menu-text">Бронирование</span>
                                 </a>
                             </li>
                             <li class="col-custom-menu ">
-                                <a href="#" class="color-menu-href menu-info">
+                                <a href="#" class="current">
                                     <span class="color-icon info"></span>
                                     <span class="color-menu-text">Информация</span>
                                 </a>
                             </li>
                             <li class="col-custom-menu ">
-                                <a href="#" class="color-menu-href menu-hotels">
+                                <a href="#" class="current">
                                     <span class="color-icon hotels"></span>
                                     <span class="color-menu-text">Отели</span>
                                 </a>
                             </li>
                             <li class="col-custom-menu ">
-                                <a href="#" class="color-menu-href menu-contacts">
+                                <a href="#" class="current">
                                     <span class="color-icon contacts"></span>
                                     <span class="color-menu-text">Контакты</span>
                                 </a>

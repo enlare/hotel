@@ -104,23 +104,38 @@
 </div>
 <div class="container-small">
     <div class="hotel-description clearfix">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 margin-row">
-            <div class="pull-left icon-description "></div>
-            <div class="pull-left text-description ">Макс.чел: 3</div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 margin-row">
-            <div class="pull-left icon-description room-amount"></div>
-            <div class="pull-left text-description ">Кол-во номеров: 4</div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 margin-row">
-            <div class="pull-left icon-description parking"></div>
-            <div class="pull-left text-description ">Парковка: Есть</div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-            <div class="pull-left icon-description full-info"></div>
-            <a href="#" class="pull-left text-description link-description">
-                Подробнее об отеле
-            </a>
+        <div class="row hotel-description-row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hotel-icons-wrapper margin-row clearfix">
+                <div class="pull-left hotel-description-icon shower"></div>
+                <div class="pull-left hotel-description-icon catering"></div>
+                <div class="pull-left hotel-description-icon tv"></div>
+                <div class="pull-left hotel-description-icon washer"></div>
+                <div class="pull-left hotel-description-icon parking"></div>
+                <div class="pull-left hotel-description-icon wifi"></div>
+                <div class="pull-left hotel-description-icon safe"></div>
+                <div class="pull-left hotel-description-icon phone"></div>
+                <div class="pull-left hotel-description-icon pool"></div>
+                <div class="pull-left hotel-description-icon gym"></div>
+                <div class="pull-left hotel-description-icon spec"></div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hotel-description-gray">
+                <!--<div class="row">-->
+                    <div class="hotel-description-col">
+                        <div class="pull-left icon-description "></div>
+                        <div class="pull-left text-description ">Макс.чел: 3</div>
+                    </div>
+                    <div class="hotel-description-col">
+                        <div class="pull-left icon-description room-amount"></div>
+                        <div class="pull-left text-description ">Кол-во номеров: 4</div>
+                    </div>
+                    <div class="hotel-description-col">
+                        <div class="pull-left icon-description full-info"></div>
+                        <a href="#" class="pull-left text-description link-description">
+                            Подробнее об отеле
+                        </a>
+                    </div>
+                <!--</div>-->
+            </div>
         </div>
     </div>
 </div>
@@ -168,22 +183,22 @@
             </div>
             <div class="room-description">
                 <div class="row-price">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">1 час</div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">500 рублей</div>
+                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-6 no-padding">1 час</div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 no-padding room-price">500 рублей</div>
                 </div>
                 <div class="row-price">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">3 часа</div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">1500 рублей</div>
+                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-6 no-padding">3 часа</div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 no-padding room-price">1500 рублей</div>
                 </div>
                 <div class="row-price">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">Ночь(23:00 - 9:00)</div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">2000 рублей</div>
+                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-6 no-padding">Ночь(23:00 - 9:00)</div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 no-padding room-price">2000 рублей</div>
                 </div>
                 <div class="row-price">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">Сутки(24 часа)</div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 no-padding room-price">3000 рублей</div>
+                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-6 no-padding">Сутки(24 часа)</div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 no-padding room-price">3000 рублей</div>
                 </div>
-                <div>
+                <div class="row-price-text">
                     При почасовой оплате минимальный заказ 3 часа
                 </div>
             </div>
