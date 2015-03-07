@@ -105,7 +105,7 @@
 <div class="container-small">
     <div class="hotel-description clearfix">
         <div class="row hotel-description-row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hotel-icons-wrapper margin-row clearfix">
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 hotel-icons-wrapper margin-row clearfix">
                 <div class="pull-left hotel-description-icon shower"></div>
                 <div class="pull-left hotel-description-icon catering"></div>
                 <div class="pull-left hotel-description-icon tv"></div>
@@ -118,7 +118,7 @@
                 <div class="pull-left hotel-description-icon gym"></div>
                 <div class="pull-left hotel-description-icon spec"></div>
             </div>
-            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hotel-description-gray">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 hotel-description-gray">
                 <!--<div class="row">-->
                     <div class="hotel-description-col">
                         <div class="pull-left icon-description "></div>

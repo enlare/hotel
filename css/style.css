@@ -1051,6 +1051,23 @@ and (orientation:landscape){
     .news-row .news-preview .news-description-header{
         font-size: 15px;
     }
+    
+     .hotel-description-col, .hotel-description-col:first-child{
+        margin: 0 0 0 20px;
+    }
+    .wrap{
+        padding-top: 174px;
+    }
+    .carousel-caption{
+        bottom: -50px;
+    }
+    .carousel-inner{
+        padding-bottom: 50px;
+    }
+    
+    .carousel-control .icon-prev, .carousel-control .icon-next{
+        top: 27%;
+    }
 }
 
 
@@ -1150,7 +1167,9 @@ and (orientation : portrait) { /* STYLES GO HERE */
     .news-row .news-preview:nth-child(2n){
         margin:  0 10px 10px 10px!important;
     }
-
+    .hotel-description-col, .hotel-description-col:first-child{
+        margin: 0 0 0 50px;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 1024px) 
@@ -1177,6 +1196,14 @@ and (orientation:landscape){
     }
     .news-row .news-preview:nth-child(2n){
         margin:  0 20px 10px 20px!important;
+    }
+
+    .hotel-description-col{
+        margin: 0 0 0 60px;
+    }
+
+    .hotel-description-col:first-child{
+        margin: 0 0 0 60px;
     }
 }
 
